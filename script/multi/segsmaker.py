@@ -205,7 +205,7 @@ def launching(ui, skip_comfyui_check=False):
     args = f'{launch_args1.value} {launch_args2.value}'
     get_ipython().run_line_magic('run', 'venv.py')
 
-    log_file = Path('segsmaker.log')
+    log_file = Path('sksd.log')
     logging.basicConfig(
         filename=log_file,
         level=logging.INFO,

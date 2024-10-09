@@ -60,7 +60,7 @@ def webui_req():
     scripts = [
         f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/controlnet/controlnet.py {WEBUI}/asd",
         f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/venv.py {WEBUI}",
-        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/segsmaker.py {WEBUI}"]
+        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/sksd.py {WEBUI}"]
 
     upscalers = [
         f"https://huggingface.co/pantat88/ui/resolve/main/4x-UltraSharp.pth {WEBUI}/models/upscale_models",
@@ -225,7 +225,7 @@ def webui_widgets():
             f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/venv.py {WEBUI}",
             f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/ui/cui/apotek.py {WEBUI}",
             f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/ui/cui/launch.py {WEBUI}",
-            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/segsmaker.py {WEBUI}"
+            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/sksd.py {WEBUI}"
         ]
 
         for y in x:

@@ -10,7 +10,7 @@ RST = '\033[0m'
 ORG = '\033[38;5;208m'
 
 def logging_launch():
-    log_file = Path('segsmaker.log')
+    log_file = Path('sksd.log')
     logging.basicConfig(
         filename=log_file,
         level=logging.INFO,

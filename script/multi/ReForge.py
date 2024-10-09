@@ -65,7 +65,7 @@ def webui_req():
         f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/pinggy.py {WEBUI}",
         f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/ngrokk.py {WEBUI}",
         f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/venv.py {WEBUI}",
-        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/segsmaker.py {WEBUI}"]
+        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/sksd.py {WEBUI}"]
 
     upscalers = [
         f"https://huggingface.co/pantat88/ui/resolve/main/4x-UltraSharp.pth {WEBUI}/models/ESRGAN",
@@ -220,7 +220,7 @@ def webui_widgets():
             f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/pinggy.py {WEBUI}",
             f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/ngrokk.py {WEBUI}",
             f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/venv.py {WEBUI}",
-            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/segsmaker.py {WEBUI}"
+            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/sksd.py {WEBUI}"
         ]
 
         for y in x:

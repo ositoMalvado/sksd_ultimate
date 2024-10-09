@@ -508,7 +508,7 @@ class Tunnel:
 
     def _print(self) -> None:
         D = ', '.join(tunnel["name"] for tunnel in self.tunnel_list)
-        O = Path('segsmaker.log')
+        O = Path('sksd.log')
         L = False
 
         while not L:

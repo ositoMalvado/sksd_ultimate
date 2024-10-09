@@ -45,7 +45,7 @@ def webui_req():
     scripts = [
         f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/ui/trainer/launch.py {WEBUI}",
         f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/venv.py {WEBUI}",
-        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/segsmaker.py {WEBUI}"]
+        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/sksd.py {WEBUI}"]
 
     for items in scripts:
         download(items)
@@ -122,7 +122,7 @@ def webui_widgets():
         x = [
             f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/ui/trainer/launch.py {WEBUI}",
             f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/venv.py {WEBUI}",
-            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/segsmaker.py {WEBUI}"
+            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/sksd.py {WEBUI}"
         ]
         
         print()

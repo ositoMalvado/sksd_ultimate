@@ -2,7 +2,7 @@ import subprocess, sys, os, logging
 from pathlib import Path
 
 def logging_launch():
-    log_file = Path('segsmaker.log')
+    log_file = Path('sksd.log')
     logging.basicConfig(
         filename=log_file,
         level=logging.INFO,
