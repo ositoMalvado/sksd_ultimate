@@ -1,4 +1,4 @@
-[![Abrir en SageMaker](https://lithi.io/file/GU9fQbpp.svg)](https://studiolab.sagemaker.aws/import/github/ositoMalvado/sksd_ultimate/blob/main/sksd.ipynb)
+[![Abrir en SageMaker](https://lithi.io/file/GU9fQbpp.svg)](https://studiolab.sagemaker.aws/import/github/ositoMalvado/sksd/blob/main/sksd.ipynb)
 
 Mi Discord: https://discord.gg/BQKEQaGj
 
