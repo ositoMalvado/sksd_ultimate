@@ -82,7 +82,7 @@ def webui_req():
     tempe()
 
 def exts():
-    say("<br><b>【{red} Installing Extensions{d} 】{red}</b>")
+    say("<br><b>【{red} Instalando Extensiones{d} 】{red}</b>")
     os.chdir(WEBUI / "extensions")
     clone(str(WEBUI / "asd/extension.txt"))
 
@@ -150,7 +150,7 @@ def webui_install(b):
         display(Image(filename=str(IMG)))
 
     with webui_setup:
-        say("<b>【{red} Installing Forge{d} 】{red}</b>")
+        say("<b>【{red} Instalando Forge{d} 】{red}</b>")
         get_ipython().system(f"{repo}")
 
         marking(SRC, 'marking.json', 'Forge')
@@ -167,7 +167,7 @@ def webui_install(b):
             get_ipython().run_line_magic('run', f'{WEBUI}/venv.py')
             os.chdir(HOME)
             loading.clear_output(wait=True)
-            say("<b>【{red} Done{d} 】{red}</b>")
+            say("<b>【{red} Listo{d} 】{red}</b>")
 
 def go_back(b):
     panel.close()
