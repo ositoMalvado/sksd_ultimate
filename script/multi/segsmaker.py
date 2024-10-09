@@ -5,7 +5,7 @@ from ipywidgets import widgets
 from pathlib import Path
 import json, argparse, sys, logging
 
-SRC = Path.home() / '.gutris1'
+SRC = Path.home() / '.ositoMalvado'
 CSS = SRC / 'setup.css'
 MARK = SRC / 'marking.json'
 IMG = SRC / "loading.png"
@@ -196,7 +196,7 @@ def import_cupang():
         from cupang import Tunnel as Alice_Zuberg
     except ImportError:
         strup = Path.home() / '.ipython/profile_default/startup'
-        dl = f'curl -sLo {strup}/cupang.py https://github.com/gutris1/segsmaker/raw/main/script/cupang.py'
+        dl = f'curl -sLo {strup}/cupang.py https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/cupang.py'
         get_ipython().system(dl)
         sys.path.append(str(strup))
 

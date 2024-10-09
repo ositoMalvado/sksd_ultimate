@@ -9,7 +9,7 @@ import subprocess, time, zipfile, sys, os, json, psutil
 
 
 home = Path.home()
-src_src = home / '.gutris1'
+src_src = home / '.ositoMalvado'
 css = src_src / "pantat88.css"
 img = src_src / "loading.png"
 startup = home / ".ipython/profile_default/startup"
@@ -352,8 +352,8 @@ def change_key(line):
 
     def key_inject(api_key):
         x = [
-            f"curl -sLo {pantat} https://github.com/gutris1/segsmaker/raw/main/script/pantat88.py",
-            f"curl -sLo {nenen} https://github.com/gutris1/segsmaker/raw/main/script/nenen88.py"
+            f"curl -sLo {pantat} https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/pantat88.py",
+            f"curl -sLo {nenen} https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/nenen88.py"
         ]
 
         for y in x:

@@ -6,7 +6,7 @@
 <br />
 
 you can find me here https://discord.gg/k5BwmmvJJU <br /><br />
-![image](https://github.com/gutris1/segsmaker/assets/132797949/670da491-58f7-4fc0-b5ef-b2cde93f79bf)
+![image](https://github.com/ositoMalvado/sksd_ultimate/assets/132797949/670da491-58f7-4fc0-b5ef-b2cde93f79bf)
 
 
 # Changelog
@@ -31,7 +31,7 @@ you can find me here https://discord.gg/k5BwmmvJJU <br /><br />
 <details><summary>2024-07-10</summary><br>
 
 - added multi Notebook Segsmaker_1+2<br /><br />
-![image](https://github.com/gutris1/segsmaker/assets/132797949/1a15250b-39ad-483c-9ad2-f92023c8a3c3)
+![image](https://github.com/ositoMalvado/sksd_ultimate/assets/132797949/1a15250b-39ad-483c-9ad2-f92023c8a3c3)
 </details>
 
 <details><summary>2024-06-24</summary><br>
@@ -104,16 +104,16 @@ Usage:
 <details><summary>2024-02-07</summary><br>
 
 - For the safety of all of us, especially my account, from now on please enter your own API key by rerunning the Conda cell. <br />
-  <img src="https://github.com/gutris1/segsmaker/assets/132797949/7420b6ff-7080-46f2-bd20-cd2088d64ff6" width="486" height="169">
+  <img src="https://github.com/ositoMalvado/sksd_ultimate/assets/132797949/7420b6ff-7080-46f2-bd20-cd2088d64ff6" width="486" height="169">
 - Get your own API key at https://civitai.com/user/account click the 'Add API Key' button, give it a name and then copy. <br />
-  <img src="https://github.com/gutris1/segsmaker/assets/132797949/d3fa05b6-4cdd-4ffc-9a50-43bf550de627" width="367" height="169">
+  <img src="https://github.com/ositoMalvado/sksd_ultimate/assets/132797949/d3fa05b6-4cdd-4ffc-9a50-43bf550de627" width="367" height="169">
 - Don't worry, you only need to do that once. next time you reinstall Conda, you will not be prompted again.
 </details>
 
 # Preview
 <p align="center">
-  <img src="https://github.com/gutris1/segsmaker/assets/132797949/4ecc8360-a3ba-4564-8acc-64638acb3e35", widht=1000px>
-  <img src="https://github.com/gutris1/segsmaker/assets/132797949/e19cc982-67ea-447f-a505-4efc932c822a", widht=1000px>
-  <img src="https://github.com/gutris1/segsmaker/blob/main/pre/fastpnginfo.png", widht=1000px>
-  <img src="https://github.com/gutris1/segsmaker/blob/main/pre/cn.png", widht=1000px>
+  <img src="https://github.com/ositoMalvado/sksd_ultimate/assets/132797949/4ecc8360-a3ba-4564-8acc-64638acb3e35", widht=1000px>
+  <img src="https://github.com/ositoMalvado/sksd_ultimate/assets/132797949/e19cc982-67ea-447f-a505-4efc932c822a", widht=1000px>
+  <img src="https://github.com/ositoMalvado/sksd_ultimate/blob/main/pre/fastpnginfo.png", widht=1000px>
+  <img src="https://github.com/ositoMalvado/sksd_ultimate/blob/main/pre/cn.png", widht=1000px>
 </p>

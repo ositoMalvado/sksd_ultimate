@@ -9,7 +9,7 @@ version = "v1.10.1"
 repo = f"git clone -q -b {version} https://github.com/gutris1/A1111"
 
 HOME = Path.home()
-SRC = HOME / '.gutris1'
+SRC = HOME / '.ositoMalvado'
 CSS = SRC / 'setup.css'
 IMG = SRC / 'loading.png'
 MARK = SRC / 'marking.py'
@@ -47,7 +47,7 @@ def req_list():
 
 def webui_req():
     time.sleep(1)
-    pull(f"https://github.com/gutris1/segsmaker sd {WEBUI}")
+    pull(f"https://github.com/ositoMalvado/sksd_ultimate sd {WEBUI}")
 
     tmp_cleaning()
 
@@ -58,12 +58,12 @@ def webui_req():
         subprocess.run(shlex.split(lines), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
     scripts = [
-        f"https://github.com/gutris1/segsmaker/raw/main/script/controlnet/controlnet.py {WEBUI}/asd",
-        f"https://github.com/gutris1/segsmaker/raw/main/script/zrok.py {WEBUI}",
-        f"https://github.com/gutris1/segsmaker/raw/main/script/pinggy.py {WEBUI}",
-        f"https://github.com/gutris1/segsmaker/raw/main/script/ngrokk.py {WEBUI}",
-        f"https://github.com/gutris1/segsmaker/raw/main/script/venv.py {WEBUI}",
-        f"https://github.com/gutris1/segsmaker/raw/main/script/multi/segsmaker.py {WEBUI}"]
+        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/controlnet/controlnet.py {WEBUI}/asd",
+        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/zrok.py {WEBUI}",
+        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/pinggy.py {WEBUI}",
+        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/ngrokk.py {WEBUI}",
+        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/venv.py {WEBUI}",
+        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/segsmaker.py {WEBUI}"]
 
     upscalers = [
         f"https://huggingface.co/pantat88/ui/resolve/main/4x-UltraSharp.pth {WEBUI}/models/ESRGAN",
@@ -214,12 +214,12 @@ def webui_widgets():
                 get_ipython().system("git fetch --tags")
 
         x = [
-            f"https://github.com/gutris1/segsmaker/raw/main/script/controlnet/controlnet.py {WEBUI}/asd",
-            f"https://github.com/gutris1/segsmaker/raw/main/script/zrok.py {WEBUI}",
-            f"https://github.com/gutris1/segsmaker/raw/main/script/pinggy.py {WEBUI}",
-            f"https://github.com/gutris1/segsmaker/raw/main/script/ngrokk.py {WEBUI}",
-            f"https://github.com/gutris1/segsmaker/raw/main/script/venv.py {WEBUI}",
-            f"https://github.com/gutris1/segsmaker/raw/main/script/multi/segsmaker.py {WEBUI}"
+            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/controlnet/controlnet.py {WEBUI}/asd",
+            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/zrok.py {WEBUI}",
+            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/pinggy.py {WEBUI}",
+            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/ngrokk.py {WEBUI}",
+            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/venv.py {WEBUI}",
+            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/segsmaker.py {WEBUI}"
         ]
 
         for y in x:

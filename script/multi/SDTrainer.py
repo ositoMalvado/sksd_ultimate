@@ -8,7 +8,7 @@ from nenen88 import say, download, tempe
 repo = f"git clone --recurse-submodules https://github.com/Akegarasu/lora-scripts SDTrainer"
 
 HOME = Path.home()
-SRC = HOME / '.gutris1'
+SRC = HOME / '.ositoMalvado'
 CSS = SRC / 'setup.css'
 IMG = SRC / 'loading.png'
 MARK = SRC / 'marking.py'
@@ -43,9 +43,9 @@ def webui_req():
         subprocess.run(shlex.split(lines), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
     scripts = [
-        f"https://github.com/gutris1/segsmaker/raw/main/ui/trainer/launch.py {WEBUI}",
-        f"https://github.com/gutris1/segsmaker/raw/main/script/venv.py {WEBUI}",
-        f"https://github.com/gutris1/segsmaker/raw/main/script/multi/segsmaker.py {WEBUI}"]
+        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/ui/trainer/launch.py {WEBUI}",
+        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/venv.py {WEBUI}",
+        f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/segsmaker.py {WEBUI}"]
 
     for items in scripts:
         download(items)
@@ -120,9 +120,9 @@ def webui_widgets():
             get_ipython().system("git fetch --tags")
 
         x = [
-            f"https://github.com/gutris1/segsmaker/raw/main/ui/trainer/launch.py {WEBUI}",
-            f"https://github.com/gutris1/segsmaker/raw/main/script/venv.py {WEBUI}",
-            f"https://github.com/gutris1/segsmaker/raw/main/script/multi/segsmaker.py {WEBUI}"
+            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/ui/trainer/launch.py {WEBUI}",
+            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/venv.py {WEBUI}",
+            f"https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/segsmaker.py {WEBUI}"
         ]
         
         print()

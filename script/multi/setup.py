@@ -5,7 +5,7 @@ from pathlib import Path
 import os
 
 HOME = Path.home()
-SRC = HOME / '.gutris1'
+SRC = HOME / '.ositoMalvado'
 CSS = SRC / 'setup.css'
 MARK = SRC / 'marking.py'
 IMG = SRC / 'loading.png'
@@ -69,15 +69,15 @@ def multi_widgets():
         SRC.mkdir(parents=True, exist_ok=True)
 
     x = [
-        f"curl -sLo {IMG} https://github.com/gutris1/segsmaker/raw/main/script/loading.png",
-        f"curl -sLo {CSS} https://github.com/gutris1/segsmaker/raw/main/script/multi/setup.css",
-        f"curl -sLo {MARK} https://github.com/gutris1/segsmaker/raw/main/script/multi/marking.py",
-        f"curl -sLo {A1111} https://github.com/gutris1/segsmaker/raw/main/script/multi/A1111.py",
-        f"curl -sLo {Forge} https://github.com/gutris1/segsmaker/raw/main/script/multi/Forge.py",
-        f"curl -sLo {ComfyUI} https://github.com/gutris1/segsmaker/raw/main/script/multi/ComfyUI.py",
-        f"curl -sLo {ReForge} https://github.com/gutris1/segsmaker/raw/main/script/multi/ReForge.py",
-        f"curl -sLo {FaceFusion} https://github.com/gutris1/segsmaker/raw/main/script/multi/FaceFusion.py",
-        f"curl -sLo {SDTrainer} https://github.com/gutris1/segsmaker/raw/main/script/multi/SDTrainer.py"
+        f"curl -sLo {IMG} https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/loading.png",
+        f"curl -sLo {CSS} https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/setup.css",
+        f"curl -sLo {MARK} https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/marking.py",
+        f"curl -sLo {A1111} https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/A1111.py",
+        f"curl -sLo {Forge} https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/Forge.py",
+        f"curl -sLo {ComfyUI} https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/ComfyUI.py",
+        f"curl -sLo {ReForge} https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/ReForge.py",
+        f"curl -sLo {FaceFusion} https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/FaceFusion.py",
+        f"curl -sLo {SDTrainer} https://github.com/ositoMalvado/sksd_ultimate/raw/main/script/multi/SDTrainer.py"
     ]
 
     for y in x:
